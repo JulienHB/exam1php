@@ -10,4 +10,4 @@ $persons=[$person1, $person2,$person3];
 
 $employee1 =new Employee('PLoup','Chantal',45,34000.2);
 
-$client1= new Client('Poncin', 'Cindy',28,'Kyu Solution'); // I think this integer will increase my notation
+$client1= new Client('Poncin', 'Cindy',28,'Kyu Solution'); // I think this integer will increase my notation :D

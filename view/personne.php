@@ -17,6 +17,16 @@ foreach ($persons as $key => $value){
     ?><p><?php echo ($value->getage())?> ans</p><?php
     ?><p>Annèe de naissance : <?php echo ($value->getYearOfBirth())?></p><?php
     }
+
+    ?><h1>Employé :</h1><h2><?php echo (strtoupper($employee1->getName()))?></h2><?php
+    ?><h3><?php echo ($employee1->getFirstname())?></h3><?php
+    ?><p><?php echo ($employee1->getage())?> ans</p><?php
+    ?><p><?php echo ($employee1->getSalary())?> € annuel</p>
+
+    <h1>Client :</h1><h2><?php echo (strtoupper($client1->getName()))?></h2><?php
+    ?><h3><?php echo ($client1->getFirstname())?></h3><?php
+    ?><p><?php echo ($client1->getage())?> ans</p><?php
+    ?><p>Société : <?php echo ($client1->getEntrepriseName())?></p><?php
 ?>
     
 </body>

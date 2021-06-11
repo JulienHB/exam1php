@@ -3,6 +3,8 @@ class Person{
     private string $_name;
     private string $_firstname;
     private int $_age;
+    private int $_idPerson;
+    private string $_email;
 
     /**
      * @param string $name name of the person U create
